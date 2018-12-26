@@ -6,8 +6,8 @@ var fostercity_region = /* color: #d63000 */ ee.Geometry.Polygon(
           [-122.984, 38.426]]]);
 
 //bands to be considered
-var Landsat_8_BANDS = ['B2', 'B3','B4','B5','B6','B7'];
-var Landsat_7_BANDS = ['B1','B2','B3','B4','B5','B7'];
+//var Landsat_8_BANDS = ['B2', 'B3','B4','B5','B6','B7'];
+//var Landsat_7_BANDS = ['B1','B2','B3','B4','B5','B7'];
 var Landsat_5_BANDS = ['B1','B2','B3','B4','B5','B7'];
 var STD_NAMES = ['blue','green','red','nir','swir1','swir2'];
 
