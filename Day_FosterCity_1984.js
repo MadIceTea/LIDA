@@ -29,7 +29,7 @@ var inputimage = collection.median();
 
 function addNDVI(image) {
   return image
-    .addBands(image.normalizedDifference(['blue','red']).rename('ndvi'))
+    .addBands(image.normalizedDifference(['sw1','red']).rename('ndvi'))
   ;
 }
 
