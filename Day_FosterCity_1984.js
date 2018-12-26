@@ -9,7 +9,7 @@ var fostercity_region = /* color: #d63000 */ ee.Geometry.Polygon(
 var Landsat_8_BANDS = ['B2', 'B3','B4','B5','B6','B7'];
 var Landsat_7_BANDS = ['B1','B2','B3','B4','B5','B7'];
 var Landsat_5_BANDS = ['B1','B2','B3','B4','B5','B7'];
-var STD_NAMES = ['blue','green','red','near infared','swir1','swir2'];
+var STD_NAMES = ['blue','green','red','nir','swir1','swir2'];
 
 //filtering Foster City Bay-region
 var collection = ee.ImageCollection('LANDSAT/LT05/C01/T1_SR') //load collection 1 - LANDSAT7 raws for a single year
