@@ -15,9 +15,9 @@ var Landsat_4_BANDS = ['B1','B2','B3','B4','B5','B7'];
 var STD_NAMES = ['blue','green','red','nir','swir1','swir2'];
 
 //filtering Foster City Bay-region
-var collection = ee.ImageCollection("LANDSAT/LT04/C01/T2_SR") //load collection 1 - LANDSAT7 raws for a single year
-	//.filter(ee.Filter.eq('wrs_path',44))
-	//.filter(ee.Filter.eq('wrs_row',34))
+var collection = ee.ImageCollection("LANDSAT/LT04/C01/T1_SR") //load collection 1 - LANDSAT7 raws for a single year
+	//.filter(ee.Filter.eq('WRS_PATH',44))
+	//.filter(ee.Filter.eq('WRS_ROW',34))
 	.filterDate("1984-01-01","1986-11-01")
 	// Filter cloudy scenes.
   .filter(ee.Filter.lt('CLOUD_COVER_LAND', 0.1))
