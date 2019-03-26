@@ -21,7 +21,7 @@ var collection = ee.ImageCollection("LANDSAT/LT05/C01/T1_SR") //load collection 
 print(collection); //date debug
 
 //Display the Composite
-Map.addLayer(collection, {'bands':['red','blue','green'],min:0,max:2000}, 'baselayer', 0);
+Map.addLayer(collection, {'bands':['red','blue','green'],min:0,max:2000}, 'baselayer', 1);
 
 var inputimage = collection.median();
 
