@@ -11,8 +11,8 @@ var STD_NAMES = ['blue','green','red','nir','swir1','swir2'];
 
 //filtering Foster City Bay-region
 var collection = ee.ImageCollection("LANDSAT/LT05/C01/T1_SR") //load collection 1 - LANDSAT5 raws for a few years
-	//.filter(ee.Filter.eq('wrs_path',44))
-	.filter(ee.Filter.eq('wrs_row',34))
+	.filter(ee.Filter.eq('wrs_path',44))
+	//.filter(ee.Filter.eq('wrs_row',34))
 	.filterDate("1994-01-01","1996-11-01")
 	// Filter cloudy scenes.
   //.filter(ee.Filter.lt('CLOUD_COVER_LAND', 0.1))
