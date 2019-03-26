@@ -7,7 +7,7 @@ var fostercity_region = /* color: #d63000 */ ee.Geometry.Polygon(
 
 //bands to be considered
 var Landsat_4_BANDS = ['B1','B2','B3','B4','B5','B7'];
-var STD_NAMES = ['blue','green','red','near infrared','swir1','swir2'];
+var STD_NAMES = ['blue','green','red','nir','swir1','swir2'];
 
 //filtering Foster City Bay-region
 var collection = ee.ImageCollection("LANDSAT/LT04/C01/T1_SR") //load collection 1 - LANDSAT7 raws for a single year
@@ -15,7 +15,7 @@ var collection = ee.ImageCollection("LANDSAT/LT04/C01/T1_SR") //load collection 
 	.filter(ee.Filter.eq('wrs_row',34))
 	.filterDate("1984-01-01","1986-11-01")
 	// Filter cloudy scenes.
-  .filter(ee.Filter.lt('CLOUD_COVER', 1))
+  //.filter(ee.Filter.lt('CLOUD_COVER', 1))
 	.select(Landsat_4_BANDS, STD_NAMES);
 
 print(collection); //date debug
@@ -27,7 +27,7 @@ var inputimage = collection.median();
 
 function addNDVI(image) {
   return image
-    .addBands(image.normalizedDifference(['near infared','red']).rename('ndvi'))
+    .addBands(image.normalizedDifference(['nir','red']).rename('ndvi'))
   ;
 }
 
