@@ -12,7 +12,7 @@ var Landsat_5_BANDS = ['B1','B2','B3','B4','B5','B7'];
 var STD_NAMES = ['blue','green','red','nir','swir1','swir2'];
 
 //filtering Foster City Bay-region
-var collection = ee.ImageCollection('LANDSAT/LE7_SR') //load collection 1 - LANDSAT7 raws for a single year
+var collection = ee.ImageCollection("LANDSAT/LE07/C01/T1_SR") //load collection 1 - LANDSAT7 raws for a single year
 	.filter(ee.Filter.eq('wrs_path',44))
 	.filter(ee.Filter.eq('wrs_row',34))
 	.filterDate("2007-01-01","2007-12-31")
