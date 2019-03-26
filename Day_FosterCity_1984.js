@@ -7,7 +7,7 @@ var fostercity_region = /* color: #d63000 */ ee.Geometry.Polygon(
 
 //bands to be considered
 var Landsat_4_BANDS = ['B1','B2','B3','B4','B5','B7'];
-var STD_NAMES = ['blue','green','red','nir','swir1','swir2'];
+var STD_NAMES = ['blue','green','red','near infrared','swir1','swir2'];
 
 //filtering Foster City Bay-region
 var collection = ee.ImageCollection("LANDSAT/LT04/C01/T1_SR") //load collection 1 - LANDSAT7 raws for a single year
