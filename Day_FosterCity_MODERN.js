@@ -14,7 +14,7 @@ var STD_NAMES = ['blue','green','red','nir','swir1','swir2'];
 var collection = ee.ImageCollection('LANDSAT_LC08_C01_T1_SR') //load collection 1 - LANDSAT8 raws for a single year
 	.filter(ee.Filter.eq('wrs_path',44))
 	.filter(ee.Filter.eq('wrs_row',34))
-	.filterDate("2016-11-01","2017-10-17")
+	.filterDate("2017-01-01","2017-12-31")
 	// Filter cloudy scenes.
   .filter(ee.Filter.lt('CLOUD_COVER', 1))
 	.select(Landsat_8_BANDS, STD_NAMES);
