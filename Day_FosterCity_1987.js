@@ -1,3 +1,8 @@
+/*
+LANDSAT 4 can only see T1_SR data over Tenessee (USA) and T2_SR over a small portion of Saskatchewan (Canada).
+Hence, this program will be deprecated in favor of a 1994 analysis in LANDSAT 5.
+*/
+
 var fostercity_region = /* color: #d63000 */ ee.Geometry.Polygon(
         [[[-122.984, 38.426],
           [-120.816, 38.111],
