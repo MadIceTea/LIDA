@@ -35,6 +35,7 @@ var ndvi = addNDVI(inputimage);
 
 Map.addLayer(ndvi,{bands:['ndvi'],min:0,max:1}, 'ndvilayer', 0);
 
+/*
 //predict bands
 var predictionBands = ['blue','green','red','nir','swir1','swir2','ndvi'];
 
@@ -63,3 +64,4 @@ Export.image.toDrive({
   region:fostercity_region,
   scale:50.0
 });
+*/
