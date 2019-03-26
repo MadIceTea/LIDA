@@ -13,9 +13,9 @@ var STD_NAMES = ['blue','green','red','nir','swir1','swir2'];
 
 //filtering Foster City Bay-region
 var collection = ee.ImageCollection('LANDSAT/LT5_SR') //load collection 1 - LANDSAT7 raws for a single year
-	.filter(ee.Filter.eq('wrs_path',44))
-	.filter(ee.Filter.eq('wrs_row',34))
-	.filterDate("1996-11-01","1997-10-17")
+	.filter(ee.Filter.eq('WRS_PATH',44))
+	.filter(ee.Filter.eq('WRS_ROW',34))
+	.filterDate("1997-01-01","1997-12-31")
 	// Filter cloudy scenes.
   .filter(ee.Filter.lt('CLOUD_COVER', 1))
 	.select(Landsat_5_BANDS, STD_NAMES);
@@ -23,7 +23,7 @@ var collection = ee.ImageCollection('LANDSAT/LT5_SR') //load collection 1 - LAND
 print(collection); //date debug
 
 //Display the Composite
-Map.addLayer(collection, {'bands':['red','blue','green'],min:0,max:2000}, 'baselayer', 0);
+Map.addLayer(collection, {'bands':['red','blue','green'],min:0,max:2000}, 'baselayer', 1);
 
 var inputimage = collection.median();
 
