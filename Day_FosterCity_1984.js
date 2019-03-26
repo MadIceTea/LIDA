@@ -15,7 +15,7 @@ var collection = ee.ImageCollection("LANDSAT/LT04/C01/T1_SR") //load collection 
 	//.filter(ee.Filter.eq('wrs_row',34))
 	.filterDate("1984-01-01","1986-11-01")
 	// Filter cloudy scenes.
-  .filter(ee.Filter.lt('CLOUD_COVER_LAND', 1))
+  .filter(ee.Filter.lt('CLOUD_COVER_LAND', -1))
 	.select(Landsat_4_BANDS, STD_NAMES);
 
 print(collection); //date debug
