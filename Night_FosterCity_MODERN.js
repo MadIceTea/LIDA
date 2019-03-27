@@ -26,7 +26,7 @@ var fostercity_region = /* color: #d63000 */ee.Geometry.Polygon(
 
 var viirs = ee.Image('NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG/20170901'); //load nightime data
 
-Map.addLayer(viirs,{bands:[],min:0,max:1}, 'nightmap', 0);
+//Map.addLayer(viirs,{bands:[],min:0,max:1}, 'nightmap', 0);
 var specific = viirs.select('avg_rad');
 Map.addLayer(specific,{bands:['avg_rad'],min:0,max:1},'masked', 1);
 
