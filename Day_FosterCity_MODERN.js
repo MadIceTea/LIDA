@@ -41,7 +41,7 @@ var predictionBands = ['blue','green','red','nir','swir1','swir2','ndvi'];
 
 var trainingimage = ndvi.select(predictionBands);
 
-var trainingpolygons = ee.FeatureCollection('ft:16JkY8nPmU8QhcqFIsOD9WWXTJJ5rI4OvUNvtbhZU');
+var trainingpolygons = ee.FeatureCollection('ft:18GtIidyOfJkJhnsX_-7MWr3b0VH3vZIKrymBsUC5');
 
 var training = trainingimage.sampleRegions({
     collection: trainingpolygons,
