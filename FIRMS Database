@@ -1,5 +1,5 @@
 var dataset = ee.ImageCollection('FIRMS').filter(
-    ee.Filter.date('2018-03-29', '2018-04-08'));
+    ee.Filter.date('2018-07-21', '2019-08-31'));
 var fires = dataset.select('T21');
 var firesVis = {
   min: 325.0,
