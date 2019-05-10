@@ -1,4 +1,4 @@
-[![Repo Size](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
+[![Repo Size](https://badge-size.herokuapp.com/MadIceTea/LIDA.js/master/strapdown.min.js)](https://github.com/MadIceTea/StrapDown.js/blob/master/strapdown.min.js)
 [![Best Practices](https://bestpractices.coreinfrastructure.org/projects/612/badge)](https://bestpractices.coreinfrastructure.org)
 [![Code Climate Issues](https://codeclimate.com/github/MadIceTea/LIDA/badges/issue_count.svg)](https://codeclimate.com/github/MadIceTea/LIDA)
 [![Pending Pull-Requests](http://githubbadges.herokuapp.com/MadIceTea/LIDA/pulls.svg)](https://github.com/MadIceTea/LIDA/pulls)
