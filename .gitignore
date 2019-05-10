@@ -1,5 +1,6 @@
-# Log file
+# Text file
 *.log
+*.md
 
 # Package Files #
 *.jar
