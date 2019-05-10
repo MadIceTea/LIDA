@@ -1,5 +1,11 @@
-/*note -- it seems 2019 is a very cloudy year -- 
+/*
+note 1 -- it seems 2019 is a very cloudy year -- 
 2018-11-08 is the last good no-cloud date as of 2019-05-10
+*/
+
+/*
+note 2 -- it seems that accepting clouds for analysis will over-amplify
+the forest signal and near-entirely kill the urbanized region signal.
 */
 
 var fostercity_region = /* color: #d63000 */ ee.Geometry.Polygon(
