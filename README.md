@@ -2,7 +2,8 @@
 [![Best Practices](https://bestpractices.coreinfrastructure.org/projects/612/badge)](https://bestpractices.coreinfrastructure.org)
 [![Pending Pull-Requests](https://img.shields.io/github/issues-pr/madicetea/LIDA.svg)](https://github.com/MadIceTea/LIDA/pulls)
 [![Github Issues](https://img.shields.io/github/issues-raw/madicetea/LIDA.svg)](https://github.com/MadIceTea/LIDA/issues)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5e4a8a283bd94d9a8861a87aa26699fe)](https://www.codacy.com/app/MadIceTea/LIDA)
+[![Codacy Static Analysis](https://api.codacy.com/project/badge/Grade/5e4a8a283bd94d9a8861a87aa26699fe)](https://www.codacy.com/app/MadIceTea/LIDA)
+[![Codacy Issues](https://img.shields.io/badge/Codacy%20Issues-213-ffb347.svg)](https://app.codacy.com/app/MadIceTea/LIDA/issues?bid=12681575)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MadIceTea/LIDA/wiki/)
 
 <h2>LIDA: Land Image-Data Assessment</h2>
