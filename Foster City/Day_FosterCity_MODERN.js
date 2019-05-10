@@ -1,3 +1,7 @@
+/*note -- it seems 2019 is a very cloudy year -- 
+2018-11-08 is the last good no-cloud date as of 2019-05-10
+*/
+
 var fostercity_region = /* color: #d63000 */ ee.Geometry.Polygon(
         [[[-122.984, 38.426],
           [-120.816, 38.111],
