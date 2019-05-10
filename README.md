@@ -1,9 +1,8 @@
 [![Github Repo Size](https://img.shields.io/github/repo-size/MadIceTea/LIDA.svg)](https://github.com/MadIceTea/LIDA)
 [![Best Practices](https://bestpractices.coreinfrastructure.org/projects/612/badge)](https://bestpractices.coreinfrastructure.org)
-[![Code Climate Issues](https://codeclimate.com/github/MadIceTea/LIDA/badges/issue_count.svg)](https://codeclimate.com/github/MadIceTea/LIDA)
-[![Pending Pull-Requests](http://githubbadges.herokuapp.com/MadIceTea/LIDA/pulls.svg)](https://github.com/MadIceTea/LIDA/pulls)
-[![Github Issues](http://githubbadges.herokuapp.com/MadIceTea/LIDA/issues.svg)](https://github.com/LIDA/balanceic/issues)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3bedc4b9cf3548689db09f1bfca82414)](https://www.codacy.com/app/MadIceTea/LIDA?utm_source=github.com&utm_medium=referral&utm_content=MadIceTea/LIDA&utm_campaign=badger)
+[![Pending Pull-Requests](https://img.shields.io/github/issues-pr/madicetea/LIDA.svg)](https://github.com/MadIceTea/LIDA/pulls)
+[![Github Issues](https://img.shields.io/github/issues-raw/madicetea/LIDA.svg)](https://github.com/MadIceTea/LIDA/issues)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5e4a8a283bd94d9a8861a87aa26699fe)](https://www.codacy.com/app/MadIceTea/LIDA)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MadIceTea/LIDA/wiki/)
 
 <h2>LIDA: Land Image-Data Assessment</h2>
