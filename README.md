@@ -1,5 +1,4 @@
 [![Github Repo Size](https://img.shields.io/github/repo-size/MadIceTea/LIDA.svg)](https://github.com/MadIceTea/LIDA)
-[![Best Practices](https://bestpractices.coreinfrastructure.org/projects/612/badge)](https://bestpractices.coreinfrastructure.org)
 [![Pending Pull-Requests](https://img.shields.io/github/issues-pr/madicetea/LIDA.svg)](https://github.com/MadIceTea/LIDA/pulls)
 [![Github Issues](https://img.shields.io/github/issues-raw/madicetea/LIDA.svg)](https://github.com/MadIceTea/LIDA/issues)
 [![Codacy Static Analysis](https://api.codacy.com/project/badge/Grade/5e4a8a283bd94d9a8861a87aa26699fe)](https://www.codacy.com/app/MadIceTea/LIDA)
